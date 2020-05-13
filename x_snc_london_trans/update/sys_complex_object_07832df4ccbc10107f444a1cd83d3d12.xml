@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>bikeProficiency5797630579</name>
+        <namespace>TransportforLondonUnifiedAPIv1</namespace>
+        <scope_name>036095bccc7c10107f444a1cd83d3def</scope_name>
+        <serialized_content>{"TransportforLondonUnifiedAPIv1:bikeProficiency5797630579":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:07:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07832df4ccbc10107f444a1cd83d3d12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bikeProficiency5797630579</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="London Transit Spoke" source="x_snc_london_trans">036095bccc7c10107f444a1cd83d3def</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name>sys_complex_object_07832df4ccbc10107f444a1cd83d3d12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:07:04</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

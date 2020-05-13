@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi_operation">
+    <sys_openapi_operation action="INSERT_OR_UPDATE">
+        <complex_object_ids>c383e9f4ccbc10107f444a1cd83d3dfb,8783e9b4ccbc10107f444a1cd83d3dca,cf83e9b4ccbc10107f444a1cd83d3dcb,4f83e9b4ccbc10107f444a1cd83d3dc8</complex_object_ids>
+        <deprecated>false</deprecated>
+        <http_method>get</http_method>
+        <name>Gets all bike point locations. The Place object has an addtionalProperties array which contains the nbBikes, nbDocks and nbSpaces&#13;
+            numbers which give the status of the BikePoint. A mismatch in these numbers i.e. nbDocks - (nbBikes + nbSpaces) != 0 indicates broken docks.</name>
+        <openapi display_value="Transport for London Unified API - v1">3683e9b4ccbc10107f444a1cd83d3dc6</openapi>
+        <path>/BikePoint</path>
+        <serialized_operation>{"fName":"Gets all bike point locations. The Place object has an addtionalProperties array which contains the nbBikes, nbDocks and nbSpaces\r\n            numbers which give the status of the BikePoint. A mismatch in these numbers i.e. nbDocks - (nbBikes + nbSpaces) !\u003d 0 indicates broken docks.","fOperationId":"BikePoint_GetAll","fPath":"/BikePoint","fHttpMethod":"GET","fDeprecated":false,"fResponses":[{"fStatusCode":"200","fDescription":"OK","fContents":[{"fMediaType":"application/json","fSchema":{"fName":"responseapplicationjson6626181184","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fName":"responseapplicationjson6626181184","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Place","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"text/json","fSchema":{"fName":"responsetextjson6774310957","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fName":"responsetextjson6774310957","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Place","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"application/xml","fSchema":{"fName":"responseapplicationxml0195455969","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fName":"responseapplicationxml0195455969","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Place","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"text/xml","fSchema":{"fName":"responsetextxml5666198228","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fName":"responsetextxml5666198228","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Place","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}}],"fHeaders":[]}],"fParameters":[]}</serialized_operation>
+        <sys_class_name>sys_openapi_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:07:04</sys_created_on>
+        <sys_id>cf832df4ccbc10107f444a1cd83d3d00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gets all bike point locations. The Place object has an addtionalProperties array which contains the nbBikes, nbDocks and nbSpaces&#13;
+            numbers which give the status of the BikePoint. A mismatch in these numbers i.e. nbDocks - (nbBikes + nbSpaces) </sys_name>
+        <sys_package display_value="London Transit Spoke" source="x_snc_london_trans">036095bccc7c10107f444a1cd83d3def</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name>sys_openapi_operation_cf832df4ccbc10107f444a1cd83d3d00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:07:04</sys_updated_on>
+    </sys_openapi_operation>
+</record_update>

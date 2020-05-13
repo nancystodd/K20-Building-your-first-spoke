@@ -1,0 +1,2539 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>list_valid_modes</internal_name>
+        <label_cache>[{"name":"{{step[83a0b010-df31-4bf4-b8c9-76c7b2f32872].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[5de23ee3-b3d0-42b6-8880-20bd044966ad].ArrayOfMode.array_of_Mode}}","label":"step➛XML Parser step➛ArrayOfMode➛array_of_Mode","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>1e566978ccbc10107f444a1cd83d3db2</latest_snapshot>
+        <master_snapshot>6e56a978ccbc10107f444a1cd83d3d00</master_snapshot>
+        <name>List Valid Modes</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 04:54:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82b0e1b4ccbc10107f444a1cd83d3dc1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>List Valid Modes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="London Transit Spoke" source="x_snc_london_trans">036095bccc7c10107f444a1cd83d3def</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_82b0e1b4ccbc10107f444a1cd83d3dc1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=82b0e1b4ccbc10107f444a1cd83d3dc1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=82b0e1b4ccbc10107f444a1cd83d3dc1"/>
+    <sys_element_mapping action="delete_multiple" query="id=82b0e1b4ccbc10107f444a1cd83d3dc1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>modes</field>
+        <id>82b0e1b4ccbc10107f444a1cd83d3dc1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>53956178ccbc10107f444a1cd83d3dff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_82b0e1b4ccbc10107f444a1cd83d3dc1</table>
+        <value>{{step[5de23ee3-b3d0-42b6-8880-20bd044966ad].ArrayOfMode.array_of_Mode}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=82b0e1b4ccbc10107f444a1cd83d3dc1^sys_idNOT INdf956178ccbc10107f444a1cd83d3de4,e6142538ccbc10107f444a1cd83d3d83"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="List Valid Modes">82b0e1b4ccbc10107f444a1cd83d3dc1</action>
+        <cid>5de23ee3-b3d0-42b6-8880-20bd044966ad</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>XML Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="XML Parser">34371337773223007b2380733b106170</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>df956178ccbc10107f444a1cd83d3de4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=df956178ccbc10107f444a1cd83d3de4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>df956178ccbc10107f444a1cd83d3de4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>1f956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <value>&lt;ArrayOfMode xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Tfl.Api.Presentation.Entities"&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cable-car&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;coach&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cycle&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cycle-hire&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;dlr&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;interchange-keep-sitting&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;interchange-secure&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;national-rail&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;overground&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;replacement-bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;river-bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;river-tour&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;taxi&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tflrail&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tram&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tube&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;walking&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+&lt;/ArrayOfMode&gt;</value>
+        <variable display_value="">48ff5bb7773223007b2380733b10612c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>df956178ccbc10107f444a1cd83d3de4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>5b956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <value>{"name":"ArrayOfMode","children":[{"name":"array_of_Mode","children":[{"name":"Mode","children":[{"name":"IsFarePaying","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsFarePaying","previewValue":"true"},{"name":"IsScheduledService","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsScheduledService","previewValue":"true"},{"name":"IsTflService","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsTflService","previewValue":"true"},{"name":"ModeName","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/ModeName","previewValue":"bus"}],"type":"object","xpath":"/ArrayOfMode/Mode","previewValue":""}],"type":"array.object","xpath":"/ArrayOfMode/Mode","previewValue":""}],"type":"object","xpath":"/ArrayOfMode","previewValue":""}</value>
+        <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=df956178ccbc10107f444a1cd83d3de4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>df956178ccbc10107f444a1cd83d3de4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>d7956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>df956178ccbc10107f444a1cd83d3de4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>53956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value>{{step[83a0b010-df31-4bf4-b8c9-76c7b2f32872].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>df956178ccbc10107f444a1cd83d3de4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>17956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=df956178ccbc10107f444a1cd83d3de4^sys_idNOT INdf956178ccbc10107f444a1cd83d3de9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD9f95617862bc1010ecf26a88e9a282e7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1c8db4c9-4447-491f-a811-4f850c0625d6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ArrayOfMode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ArrayOfMode</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="XML Parser step">df956178ccbc10107f444a1cd83d3de4</model>
+        <model_id>df956178ccbc10107f444a1cd83d3de4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_df956178ccbc10107f444a1cd83d3de4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>df956178ccbc10107f444a1cd83d3de9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="List Valid Modes">82b0e1b4ccbc10107f444a1cd83d3dc1</action>
+        <cid>83a0b010-df31-4bf4-b8c9-76c7b2f32872</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>e6142538ccbc10107f444a1cd83d3d83</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e6142538ccbc10107f444a1cd83d3d83"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:40</sys_created_on>
+        <sys_id>0524e538ccbc10107f444a1cd83d3d38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:40</sys_updated_on>
+        <value>https://api.tfl.gov.uk</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>2614a538ccbc10107f444a1cd83d3d91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>2a14a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"text/xml"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>2e14a538ccbc10107f444a1cd83d3d8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>3683e9b4ccbc10107f444a1cd83d3dc6</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:40</sys_created_on>
+        <sys_id>4124e538ccbc10107f444a1cd83d3d38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:40</sys_updated_on>
+        <value>5338d5b0ccbc10107f444a1cd83d3d1c</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>6214a538ccbc10107f444a1cd83d3d91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>6614a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>/Line/Meta/Modes</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:40</sys_created_on>
+        <sys_id>8d24e538ccbc10107f444a1cd83d3d37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:40</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>a214a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>cb832df4ccbc10107f444a1cd83d3d1b</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>ae14a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>ea14a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>ee14a538ccbc10107f444a1cd83d3d8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e6142538ccbc10107f444a1cd83d3d83^sys_idNOT IN4124e538ccbc10107f444a1cd83d3d1f"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=a97d2cb5-fa46-4d76-9d4f-b4af27914102</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">e6142538ccbc10107f444a1cd83d3d83</model>
+        <model_id>e6142538ccbc10107f444a1cd83d3d83</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e6142538ccbc10107f444a1cd83d3d83</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:40</sys_created_on>
+        <sys_id>4124e538ccbc10107f444a1cd83d3d1f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="delete_multiple" query="model=82b0e1b4ccbc10107f444a1cd83d3dc1^sys_idNOT INdb956178ccbc10107f444a1cd83d3df6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Mode,child_name=Mode,child_type=object,child_type_label=Object,child_uiUniqueId=94b8dc4f-9005-42dd-b626-6780a18208c7,co_type_name=FD5b95617802bc10107366c209e06188f4,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=5de23ee3-b3d0-42b6-8880-20bd044966ad,sourceType=step,sourceUiUniqueId=f8d834ed-1c1d-4993-a9d3-5476cc720d34,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=deaef0ba-15e9-4487-b0fa-85737ba3682f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>modes</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Transit Modes</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="List Valid Modes">82b0e1b4ccbc10107f444a1cd83d3dc1</model>
+        <model_id>82b0e1b4ccbc10107f444a1cd83d3dc1</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_82b0e1b4ccbc10107f444a1cd83d3dc1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>db956178ccbc10107f444a1cd83d3df6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=82b0e1b4ccbc10107f444a1cd83d3dc1^sys_idNOT INdf956178ccbc10107f444a1cd83d3de4,e6142538ccbc10107f444a1cd83d3d83"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="List Valid Modes">82b0e1b4ccbc10107f444a1cd83d3dc1</action>
+        <cid>5de23ee3-b3d0-42b6-8880-20bd044966ad</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>XML Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="XML Parser">34371337773223007b2380733b106170</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>df956178ccbc10107f444a1cd83d3de4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=df956178ccbc10107f444a1cd83d3de4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>df956178ccbc10107f444a1cd83d3de4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>1f956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <value>&lt;ArrayOfMode xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Tfl.Api.Presentation.Entities"&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cable-car&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;coach&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cycle&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cycle-hire&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;dlr&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;interchange-keep-sitting&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;interchange-secure&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;national-rail&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;overground&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;replacement-bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;river-bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;river-tour&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;taxi&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tflrail&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tram&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tube&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;walking&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+&lt;/ArrayOfMode&gt;</value>
+        <variable display_value="">48ff5bb7773223007b2380733b10612c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>df956178ccbc10107f444a1cd83d3de4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>5b956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <value>{"name":"ArrayOfMode","children":[{"name":"array_of_Mode","children":[{"name":"Mode","children":[{"name":"IsFarePaying","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsFarePaying","previewValue":"true"},{"name":"IsScheduledService","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsScheduledService","previewValue":"true"},{"name":"IsTflService","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsTflService","previewValue":"true"},{"name":"ModeName","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/ModeName","previewValue":"bus"}],"type":"object","xpath":"/ArrayOfMode/Mode","previewValue":""}],"type":"array.object","xpath":"/ArrayOfMode/Mode","previewValue":""}],"type":"object","xpath":"/ArrayOfMode","previewValue":""}</value>
+        <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=df956178ccbc10107f444a1cd83d3de4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>df956178ccbc10107f444a1cd83d3de4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>d7956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>df956178ccbc10107f444a1cd83d3de4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>53956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value>{{step[83a0b010-df31-4bf4-b8c9-76c7b2f32872].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>df956178ccbc10107f444a1cd83d3de4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>17956178ccbc10107f444a1cd83d3df2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=df956178ccbc10107f444a1cd83d3de4^sys_idNOT INdf956178ccbc10107f444a1cd83d3de9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD9f95617862bc1010ecf26a88e9a282e7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1c8db4c9-4447-491f-a811-4f850c0625d6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ArrayOfMode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ArrayOfMode</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="XML Parser step">df956178ccbc10107f444a1cd83d3de4</model>
+        <model_id>df956178ccbc10107f444a1cd83d3de4</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_df956178ccbc10107f444a1cd83d3de4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>df956178ccbc10107f444a1cd83d3de9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="List Valid Modes">82b0e1b4ccbc10107f444a1cd83d3dc1</action>
+        <cid>83a0b010-df31-4bf4-b8c9-76c7b2f32872</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>e6142538ccbc10107f444a1cd83d3d83</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e6142538ccbc10107f444a1cd83d3d83"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:40</sys_created_on>
+        <sys_id>0524e538ccbc10107f444a1cd83d3d38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:40</sys_updated_on>
+        <value>https://api.tfl.gov.uk</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>2614a538ccbc10107f444a1cd83d3d91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>2a14a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"text/xml"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>2e14a538ccbc10107f444a1cd83d3d8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>3683e9b4ccbc10107f444a1cd83d3dc6</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:40</sys_created_on>
+        <sys_id>4124e538ccbc10107f444a1cd83d3d38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:40</sys_updated_on>
+        <value>5338d5b0ccbc10107f444a1cd83d3d1c</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>6214a538ccbc10107f444a1cd83d3d91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>6614a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>/Line/Meta/Modes</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:40</sys_created_on>
+        <sys_id>8d24e538ccbc10107f444a1cd83d3d37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:40</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>a214a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>cb832df4ccbc10107f444a1cd83d3d1b</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>ae14a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>ea14a538ccbc10107f444a1cd83d3d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6142538ccbc10107f444a1cd83d3d83</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:29</sys_created_on>
+        <sys_id>ee14a538ccbc10107f444a1cd83d3d8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:09:29</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e6142538ccbc10107f444a1cd83d3d83^sys_idNOT IN4124e538ccbc10107f444a1cd83d3d1f"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=a97d2cb5-fa46-4d76-9d4f-b4af27914102</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">e6142538ccbc10107f444a1cd83d3d83</model>
+        <model_id>e6142538ccbc10107f444a1cd83d3d83</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e6142538ccbc10107f444a1cd83d3d83</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:09:40</sys_created_on>
+        <sys_id>4124e538ccbc10107f444a1cd83d3d1f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_82b0e1b4ccbc10107f444a1cd83d3dc1^sys_idNOT IN97956178ccbc10107f444a1cd83d3dfc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>modes</element>
+        <help/>
+        <hint/>
+        <label>Transit Modes</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_82b0e1b4ccbc10107f444a1cd83d3dc1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:16:06</sys_created_on>
+        <sys_id>97956178ccbc10107f444a1cd83d3dfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="London Transit Spoke" source="x_snc_london_trans">036095bccc7c10107f444a1cd83d3def</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:16:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=82b0e1b4ccbc10107f444a1cd83d3dc1^sys_idNOT IN7656a978ccbc10107f444a1cd83d3d8e"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="List Valid Modes">82b0e1b4ccbc10107f444a1cd83d3dc1</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7656a978ccbc10107f444a1cd83d3d8e","name":"plan"}}</plan>
+        <snapshot>1e566978ccbc10107f444a1cd83d3db2</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7656a978ccbc10107f444a1cd83d3d8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:20</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>list_valid_modes</internal_name>
+        <label_cache>[{"name":"{{step[83a0b010-df31-4bf4-b8c9-76c7b2f32872].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[5de23ee3-b3d0-42b6-8880-20bd044966ad].ArrayOfMode.array_of_Mode}}","label":"step➛XML Parser step➛ArrayOfMode➛array_of_Mode","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>List Valid Modes</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="List Valid Modes">82b0e1b4ccbc10107f444a1cd83d3dc1</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e56a978ccbc10107f444a1cd83d3d00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e56a978ccbc10107f444a1cd83d3d00"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6e56a978ccbc10107f444a1cd83d3d00"/>
+    <sys_element_mapping action="delete_multiple" query="id=6e56a978ccbc10107f444a1cd83d3d00"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>modes</field>
+        <id>6e56a978ccbc10107f444a1cd83d3d00</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ea56a978ccbc10107f444a1cd83d3d34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6e56a978ccbc10107f444a1cd83d3d00</table>
+        <value>{{step[5de23ee3-b3d0-42b6-8880-20bd044966ad].ArrayOfMode.array_of_Mode}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=6e56a978ccbc10107f444a1cd83d3d00^sys_idNOT IN2656a978ccbc10107f444a1cd83d3d02,6e56a978ccbc10107f444a1cd83d3d1b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="List Valid Modes">6e56a978ccbc10107f444a1cd83d3d00</action>
+        <cid>83a0b010-df31-4bf4-b8c9-76c7b2f32872</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2656a978ccbc10107f444a1cd83d3d02</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2656a978ccbc10107f444a1cd83d3d02"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2656a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>https://api.tfl.gov.uk</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2a56a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>5338d5b0ccbc10107f444a1cd83d3d1c</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2e56a978ccbc10107f444a1cd83d3d15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>3683e9b4ccbc10107f444a1cd83d3dc6</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>6256a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>6656a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>6e56a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>a256a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>cb832df4ccbc10107f444a1cd83d3d1b</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>aa56a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ae56a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"text/xml"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>e656a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ea56a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>/Line/Meta/Modes</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ee56a978ccbc10107f444a1cd83d3d15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2656a978ccbc10107f444a1cd83d3d02^sys_idNOT IN2a56a978ccbc10107f444a1cd83d3d08"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=a97d2cb5-fa46-4d76-9d4f-b4af27914102</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">2656a978ccbc10107f444a1cd83d3d02</model>
+        <model_id>2656a978ccbc10107f444a1cd83d3d02</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2656a978ccbc10107f444a1cd83d3d02</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2a56a978ccbc10107f444a1cd83d3d08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="List Valid Modes">6e56a978ccbc10107f444a1cd83d3d00</action>
+        <cid>5de23ee3-b3d0-42b6-8880-20bd044966ad</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>XML Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="XML Parser">34371337773223007b2380733b106170</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>6e56a978ccbc10107f444a1cd83d3d1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e56a978ccbc10107f444a1cd83d3d1b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e56a978ccbc10107f444a1cd83d3d1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2a56a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>{"name":"ArrayOfMode","children":[{"name":"array_of_Mode","children":[{"name":"Mode","children":[{"name":"IsFarePaying","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsFarePaying","previewValue":"true"},{"name":"IsScheduledService","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsScheduledService","previewValue":"true"},{"name":"IsTflService","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsTflService","previewValue":"true"},{"name":"ModeName","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/ModeName","previewValue":"bus"}],"type":"object","xpath":"/ArrayOfMode/Mode","previewValue":""}],"type":"array.object","xpath":"/ArrayOfMode/Mode","previewValue":""}],"type":"object","xpath":"/ArrayOfMode","previewValue":""}</value>
+        <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e56a978ccbc10107f444a1cd83d3d1b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ea56a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>&lt;ArrayOfMode xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Tfl.Api.Presentation.Entities"&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cable-car&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;coach&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cycle&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cycle-hire&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;dlr&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;interchange-keep-sitting&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;interchange-secure&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;national-rail&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;overground&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;replacement-bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;river-bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;river-tour&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;taxi&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tflrail&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tram&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tube&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;walking&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+&lt;/ArrayOfMode&gt;</value>
+        <variable display_value="">48ff5bb7773223007b2380733b10612c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e56a978ccbc10107f444a1cd83d3d1b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>6e56a978ccbc10107f444a1cd83d3d1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>a656a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>6e56a978ccbc10107f444a1cd83d3d1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2256a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value>{{step[83a0b010-df31-4bf4-b8c9-76c7b2f32872].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>6e56a978ccbc10107f444a1cd83d3d1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>e256a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6e56a978ccbc10107f444a1cd83d3d1b^sys_idNOT INe256a978ccbc10107f444a1cd83d3d20"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDa256a9785fbc1010c9d71858714b981e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1c8db4c9-4447-491f-a811-4f850c0625d6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ArrayOfMode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ArrayOfMode</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="XML Parser step">6e56a978ccbc10107f444a1cd83d3d1b</model>
+        <model_id>6e56a978ccbc10107f444a1cd83d3d1b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6e56a978ccbc10107f444a1cd83d3d1b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>e256a978ccbc10107f444a1cd83d3d20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="delete_multiple" query="model=6e56a978ccbc10107f444a1cd83d3d00^sys_idNOT IN2a56a978ccbc10107f444a1cd83d3d2c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Mode,child_name=Mode,child_type=object,child_type_label=Object,child_uiUniqueId=94b8dc4f-9005-42dd-b626-6780a18208c7,co_type_name=FDa656a9782fbc1010ecb838d608e6e42a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=5de23ee3-b3d0-42b6-8880-20bd044966ad,sourceType=step,sourceUiUniqueId=f8d834ed-1c1d-4993-a9d3-5476cc720d34,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=deaef0ba-15e9-4487-b0fa-85737ba3682f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>modes</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Transit Modes</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="List Valid Modes">6e56a978ccbc10107f444a1cd83d3d00</model>
+        <model_id>6e56a978ccbc10107f444a1cd83d3d00</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6e56a978ccbc10107f444a1cd83d3d00</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2a56a978ccbc10107f444a1cd83d3d2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=6e56a978ccbc10107f444a1cd83d3d00^sys_idNOT IN2656a978ccbc10107f444a1cd83d3d02,6e56a978ccbc10107f444a1cd83d3d1b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="List Valid Modes">6e56a978ccbc10107f444a1cd83d3d00</action>
+        <cid>83a0b010-df31-4bf4-b8c9-76c7b2f32872</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2656a978ccbc10107f444a1cd83d3d02</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2656a978ccbc10107f444a1cd83d3d02"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2656a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>https://api.tfl.gov.uk</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2a56a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>5338d5b0ccbc10107f444a1cd83d3d1c</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2e56a978ccbc10107f444a1cd83d3d15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>3683e9b4ccbc10107f444a1cd83d3dc6</value>
+        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>6256a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>6656a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>6e56a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>a256a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>cb832df4ccbc10107f444a1cd83d3d1b</value>
+        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>aa56a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ae56a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"text/xml"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>e656a978ccbc10107f444a1cd83d3d17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ea56a978ccbc10107f444a1cd83d3d16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>/Line/Meta/Modes</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2656a978ccbc10107f444a1cd83d3d02</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ee56a978ccbc10107f444a1cd83d3d15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>from_openapi</value>
+        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2656a978ccbc10107f444a1cd83d3d02^sys_idNOT IN2a56a978ccbc10107f444a1cd83d3d08"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=a97d2cb5-fa46-4d76-9d4f-b4af27914102</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">2656a978ccbc10107f444a1cd83d3d02</model>
+        <model_id>2656a978ccbc10107f444a1cd83d3d02</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2656a978ccbc10107f444a1cd83d3d02</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2a56a978ccbc10107f444a1cd83d3d08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="List Valid Modes">6e56a978ccbc10107f444a1cd83d3d00</action>
+        <cid>5de23ee3-b3d0-42b6-8880-20bd044966ad</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>XML Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="XML Parser">34371337773223007b2380733b106170</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>6e56a978ccbc10107f444a1cd83d3d1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e56a978ccbc10107f444a1cd83d3d1b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e56a978ccbc10107f444a1cd83d3d1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2a56a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>{"name":"ArrayOfMode","children":[{"name":"array_of_Mode","children":[{"name":"Mode","children":[{"name":"IsFarePaying","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsFarePaying","previewValue":"true"},{"name":"IsScheduledService","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsScheduledService","previewValue":"true"},{"name":"IsTflService","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/IsTflService","previewValue":"true"},{"name":"ModeName","children":[],"type":"string","xpath":"/ArrayOfMode/Mode/ModeName","previewValue":"bus"}],"type":"object","xpath":"/ArrayOfMode/Mode","previewValue":""}],"type":"array.object","xpath":"/ArrayOfMode/Mode","previewValue":""}],"type":"object","xpath":"/ArrayOfMode","previewValue":""}</value>
+        <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e56a978ccbc10107f444a1cd83d3d1b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ea56a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <value>&lt;ArrayOfMode xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Tfl.Api.Presentation.Entities"&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cable-car&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;coach&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cycle&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;cycle-hire&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;dlr&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;interchange-keep-sitting&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;interchange-secure&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;national-rail&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;overground&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;replacement-bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;river-bus&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;river-tour&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;taxi&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tflrail&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tram&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;true&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;true&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;true&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;tube&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+	&lt;Mode&gt;&#13;
+		&lt;IsFarePaying&gt;false&lt;/IsFarePaying&gt;&#13;
+		&lt;IsScheduledService&gt;false&lt;/IsScheduledService&gt;&#13;
+		&lt;IsTflService&gt;false&lt;/IsTflService&gt;&#13;
+		&lt;ModeName&gt;walking&lt;/ModeName&gt;&#13;
+	&lt;/Mode&gt;&#13;
+&lt;/ArrayOfMode&gt;</value>
+        <variable display_value="">48ff5bb7773223007b2380733b10612c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e56a978ccbc10107f444a1cd83d3d1b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>6e56a978ccbc10107f444a1cd83d3d1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>a656a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>6e56a978ccbc10107f444a1cd83d3d1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>2256a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value>{{step[83a0b010-df31-4bf4-b8c9-76c7b2f32872].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>6e56a978ccbc10107f444a1cd83d3d1b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>e256a978ccbc10107f444a1cd83d3d28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6e56a978ccbc10107f444a1cd83d3d1b^sys_idNOT INe256a978ccbc10107f444a1cd83d3d20"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDa256a9785fbc1010c9d71858714b981e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1c8db4c9-4447-491f-a811-4f850c0625d6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ArrayOfMode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ArrayOfMode</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="XML Parser step">6e56a978ccbc10107f444a1cd83d3d1b</model>
+        <model_id>6e56a978ccbc10107f444a1cd83d3d1b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6e56a978ccbc10107f444a1cd83d3d1b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>e256a978ccbc10107f444a1cd83d3d20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6e56a978ccbc10107f444a1cd83d3d00^sys_idNOT INee56a978ccbc10107f444a1cd83d3d31"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>modes</element>
+        <help/>
+        <hint/>
+        <label>Transit Modes</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6e56a978ccbc10107f444a1cd83d3d00</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 05:19:19</sys_created_on>
+        <sys_id>ee56a978ccbc10107f444a1cd83d3d31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="London Transit Spoke" source="x_snc_london_trans">036095bccc7c10107f444a1cd83d3def</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">036095bccc7c10107f444a1cd83d3def</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:19:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
